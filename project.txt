@@ -1,0 +1,19 @@
+4. Chatbot pour la prévention sanitaire
+Secteur : Santé publique
+Description :
+Un chatbot qui répond aux questions de santé courantes, propose des conseils sur l’hygiène
+et les bonnes pratiques, et envoie des rappels pour la vaccination ou les contrôles médicaux.
+
+
+
+Objectifs :
+o Sensibiliser les populations à la santé publique.
+o Augmenter les taux de vaccination grâce à des rappels automatiques.
+Technologies suggérées :
+o NLP : DeepPavlov pour une compréhension robuste des questions médicales.
+o Backend : Flask pour gérer les interactions utilisateurs.
+o Notifications : Twilio ou WhatsApp API pour les rappels par SMS.
+o Base de données : PostgreSQL pour gérer les profils et l’historique médical
+des utilisateurs.
+o Interface : Une intégration sur Messenger ou Telegram.
+Données : WHO, datasets de santé publique disponibles sur Kaggle.

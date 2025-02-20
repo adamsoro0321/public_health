@@ -1,0 +1,61 @@
+# Fichiers et dossiers spécifiques à Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+env/
+.virtualenv/
+
+# Fichiers de logs et bases de données temporaires
+*.log
+*.sqlite3
+*.db
+
+# Paramètres de l'éditeur
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Dépendances installées via pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Caches et fichiers temporaires
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Configurations spécifiques aux IDE
+*.iml
+*.pydevproject
+.project
+.settings/
+
+# Build et distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests et couverture
+.tox/
+.nox/
+.coverage
+htmlcov/
+*.cover
+.pytest_cache/
+
+# Migrations Django
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Secrets et configurations sensibles
+.env
+*.pem
+*.key
